@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+       
+
+.box1,.box2,.box3,.box4{
+    background-color: rgb(235, 155, 141);
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    box-shadow: 5px 6px 4px rgb(138, 142, 146);
+    border-radius: 8px;
+    position: absolute;
+margin: 7px;
+}
+.box4{
+    top:92%;
+    right:2%;
+}
+.box3{
+    bottom:16%;
+   
+}
+.box2{
+    top:35%;
+    right:2%;
+}
+.boxset .box1{
+    top:6%;
+    height: 18%;
+    width: 9%;
+    margin-right: 20px;
+
+}
+.boxset3 .box3{
+    
+    height: 18%;
+    width: 9%;
+    margin-right: 20px;
+}
+.boxset2 .box2{
+    margin-top:6px ;
+    margin-bottom:6px ;
+    height: 18%;
+    width: 9%;
+    margin-left: 20px;
+}
+.boxset4 .box4{
+    top: 6;
+    height: 18%;
+    width: 9%;
+    margin-left: 20px;
+}
+.box2 img ,.box1 img,.box3 img,.box4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    border-radius: 8px;
+}
+.boxset,.boxset2,.boxset3,.boxset4{
+    height: 150px;
+    width:98%;
+    background-color: rgba(124, 253, 210, 0.918);
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 7px 4px rgb(138, 142, 146);
+}
+.boxset , .boxset3{
+    text-align: right;
+}
+.boxset textarea , .boxset3 textarea ,.boxset2 textarea, .boxset4 textarea{
+    height: 125px;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.801);
+   border: none;
+   padding: 9px;
+   margin: 4px;
+   border-radius: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="boxset"><p><textarea name="text" id="text" cols="90" rows="10" placeholder="Enter Your text"></textarea></p>
+        <div class="box1" ><img src="sky1.jpeg"></div>
+    </div>
+        <div class="boxset2" ><p><textarea name="text" id="text" cols="90" rows="10" placeholder="Enter Your text"></textarea></p>
+        <div class="box2"><img src="sky8.jpeg"></div>
+    </div>
+        <div class="boxset3"><p><textarea name="text" id="text" cols="90" rows="10" placeholder="Enter Your text"></textarea></p>
+        <div class="box3"> <img src="sky3.jpeg"></div>
+    </div>
+    <div class="boxset4"><p><textarea name="text" id="text" cols="90" rows="10" placeholder="Enter Your text"></textarea></p>
+        <div class="box4"><img src="sky.jpeg"></div>
+    </div>
+</body>
+</html>
